@@ -6,9 +6,9 @@ use VladimirH00\Animals\AbstractPet as Pet;
 
 class Dog extends Pet
 {
-
+    const PET_VOICE = "Гав";
     public function voice()
     {
-        return "Гав";
+        return self::PET_VOICE;
     }
 }
