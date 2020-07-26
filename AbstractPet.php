@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\Animals;
+namespace VladimirH00\Animals;
 
 abstract class AbstractPet
 {
@@ -13,7 +13,7 @@ abstract class AbstractPet
         $this->age = $age;
     }
 
-    abstract public function sound();
+    abstract public function voice();
 
     public function sayName()
     {

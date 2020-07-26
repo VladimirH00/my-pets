@@ -2,12 +2,12 @@
 
 require_once 'AbstractPet.php';
 
-use Psr\Animals\AbstractPet as Pet;
+use VladimirH00\Animals\AbstractPet as Pet;
 
 class Cat extends Pet
 {
 
-    public function sound()
+    public function voice()
     {
         return "Мяу";
     }
